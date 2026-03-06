@@ -1,10 +1,12 @@
 ## Common Problems in Large Legacy Monoliths
 
-Large legacy monolithic systems are extremely common in enterprise and public sector environments. Many of these systems started as small applications but gradually grew into complex platforms over many years.
+Like many enterprise and public sector platforms, the system did not start as a large and complex application. It began as a smaller system designed to solve specific operational needs. However, over the years, new features, regulations, and requirements were continuously added.
 
-As functionality increased, architectural evolution often did not keep pace with the growth of the system. This leads to a series of recurring technical problems.
+As the platform grew, the architecture did not evolve at the same pace as the system’s functionality. Instead of introducing clear architectural boundaries or restructuring parts of the system, new logic was often incorporated directly into the existing codebase.
 
-This document summarizes some of the most common issues observed in large legacy monolithic systems.
+Over time, this resulted in a monolithic system with increasing complexity and several recurring technical challenges.
+
+Working on this platform exposed me to many of the common issues that appear in large legacy monolithic systems. In this document, I summarize some of the most frequent problems I encountered and the lessons they reveal about long-term system evolution.
 
 ### Low organizational scalability
 
