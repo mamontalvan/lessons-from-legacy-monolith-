@@ -30,11 +30,7 @@ All functionality lived inside a single codebase and shared the same database.
 
 Typical structure:
 
-Frontend
-↓
-Large backend monolith
-↓
-Single relational database
+<img width="580" height="360" alt="image" align="center" src="https://github.com/user-attachments/assets/1429c9e9-d4e6-474b-9e07-2b73314120ed" />
 
 ## How the System Evolved
 
