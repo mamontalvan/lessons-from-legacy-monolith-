@@ -26,7 +26,9 @@ Finally onboarding new developers now takes more time as it is much harder for t
 <img width="680" height="380" alt="image" src="https://github.com/user-attachments/assets/2bd3505e-7bb0-42b5-9204-4e34da11e23a" />
 
 
-2. Low system scalability: a large monolithic system can also have technical problems making the system less scalable. Each application instance, which contains our entire business logic, requires a lot of CPU and memory. So insted of using cheap commodity hardware, we need to run each instance on a more high end and expensive computer.
+### Low system scalability
+
+A large monolithic system can also have technical problems making the system less scalable. Each application instance, which contains our entire business logic, requires a lot of CPU and memory. So insted of using cheap commodity hardware, we need to run each instance on a more high end and expensive computer.
 
 
 <img width="680" height="380" alt="image" src="https://github.com/user-attachments/assets/2225ed83-592f-463b-892d-e777a0c15cb1" />
