@@ -6,7 +6,9 @@ As functionality increased, architectural evolution often did not keep pace with
 
 This document summarizes some of the most common issues observed in large legacy monolithic systems.
 
-1. Low organizational scalability: with too many engineers working on the same code base, code merge conflicts become serious problems. Essentially, everyone is stepping on each other's toes and completing even the most trivial feature becomes slower and harder to deal with those issues.
+### Low organizational scalability
+
+With too many engineers working on the same code base, code merge conflicts become serious problems. Essentially, everyone is stepping on each other's toes and completing even the most trivial feature becomes slower and harder to deal with those issues.
 
 <img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/88c4f433-f256-4ddd-92ca-f6a3842dcb44" />
 
