@@ -1,3 +1,5 @@
+## Benefits with Monolithic Architecture
+
 During my time working with a large legacy monolithic system for several years, I was able to observe not only the technical challenges that emerge as these systems grow, but also the reasons why monolithic architectures are widely used in the first place.
 
 Despite the problems that can appear over time, monolithic systems offer several advantages, especially in the early stages of a project or when the system is still relatively small. Many successful platforms start as monoliths because they allow teams to move faster and keep the architecture simple.
