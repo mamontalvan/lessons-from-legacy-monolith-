@@ -49,6 +49,8 @@ A large monolithic system can also have technical problems making the system les
 
 We are also very constrained to the technology choices we potentially made many years ago, and we can't take advantage of new and better technologies. Refactoring our code base, even from one library to another, can be a huge effort, let alone considering a new programming language or a framework.
 
+When the company and the codebase grow, the monolithic architecture has both organizational and system scalability issues.
+
 
 
 
