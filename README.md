@@ -39,7 +39,15 @@ As a result:
 One of the patterns commonly found in the system was deeply nested validation logic.
 
 ```
-if (validateField(a)) { if (validateField(b)) { if (validateField(c)) { if (validateField(d)) { executeBusinessProcess(); } } } }
+if (validateField(a)) {
+   if (validateField(b)) {
+      if (validateField(c)) {
+         if (validateField(d)) {
+            executeBusinessProcess();
+         }
+      }
+   }
+}
 ```
 
 
