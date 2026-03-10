@@ -84,4 +84,4 @@ This pattern emerged when business rules were continuously added to the same fun
  - Legacy systems are not failures.
  - They are often the result of years of evolution under real-world constraints.
  - However, they also highlight the importance of architecture, maintainability, and continuous technical evolution.
- - The lessons learned from maintaining large legacy systems are some of the most valuable experiences a software engineer can have.
+
