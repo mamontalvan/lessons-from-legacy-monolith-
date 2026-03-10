@@ -81,7 +81,7 @@ This pattern emerged when business rules were continuously added to the same fun
 
 ## Final Thoughts
 
- - Legacy systems are not failures.
+ - Monolithic systems are not failures.
  - They are often the result of years of evolution under real-world constraints.
  - However, they also highlight the importance of architecture, maintainability, and continuous technical evolution.
 
