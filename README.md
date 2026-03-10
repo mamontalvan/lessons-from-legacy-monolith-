@@ -25,7 +25,7 @@ Over time, the system continued to grow but its architecture never evolved.
 
 New business requirements, and features were continuously added to the same codebase.
 
-Instead of introducing architectural boundaries, new logic was often implemented directly inside existing modules.
+Instead of introducing architectural boundaries, new logic was often implemented directly inside code base.
 
 As a result:
 
@@ -61,7 +61,6 @@ This pattern emerged when business rules were continuously added to the same fun
    - hard to modify
      
 2. Tight Coupling
-   - modules depended heavily on each other
    - small changes had unpredictable consequences
 
 3. Scalability Issues
@@ -79,25 +78,6 @@ This pattern emerged when business rules were continuously added to the same fun
    - Systems must evolve: A system that never evolves architecturally will eventually become difficult to maintain.
    - Avoid large functions: Smaller components are easier to test and reason about.
    - Invest in maintainability early: Refactoring and architecture improvements should be continuous.
-
-## What I Would Do Differently Today
-
-If I were designing a similar system today, I would focus on:
-
-- domain boundaries
-- service-oriented architecture
-- automated testing
-- observability
-- scalability
-
-```mermaid
-graph TD
-A[Frontend] --> B[API Gateway]
-B --> C[Services]
-C --> D[Independent Databases]
-```
-
-Modern architectures such as microservices provide better foundations for long-term system evolution.
 
 ## Final Thoughts
 
